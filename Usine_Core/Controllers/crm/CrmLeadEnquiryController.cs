@@ -167,6 +167,37 @@ namespace Usine_Core.Controllers.crm
                 }
             }
 
+            
+            [HttpPost]
+            [Authorize]
+            [Route("GetPartybyId/{partyId}")]
+            public IActionResult GetPartybyId(UserInfo usr, int partyId)
+            {
+                try
+                {
+
+                var partyDetail = db.PartyDetails
+                        .FirstOrDefault(e => e.RecordId == partyId && e.CustomerCode == usr.cCode);
+
+                if (partyDetail == null )
+                    {
+                        return NotFound(new { Message = "." });
+                    }
+
+                    return Ok(new
+                    {
+                        Message = "Party details retrieved successfully.",
+                        Data = partyDetail
+                    });
+                }
+                catch (Exception ex)
+                {
+                    return StatusCode(500, new { Message = "An error occurred while retrieving the enquiries.", Error = $"Error: {ex.Message} - {ex.InnerException?.Message}" });
+                }
+            }
+            
+            
+
             [HttpPost]
             [Authorize]
             [Route("GetCRMRxEnquiry/{enquiryId}")]

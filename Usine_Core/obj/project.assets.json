@@ -9100,11 +9100,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\latest_github\\github_ERP\\ERP\\ERP_sales_API\\ERP_sales_API\\Usine_Core\\Usine_Core\\Usine_Core.csproj",
+      "projectUniqueName": "C:\\CORtracker files\\ERP\\ERP_Sales_API_Latest\\Usine_Core\\Usine_Core.csproj",
       "projectName": "Usine_Core",
-      "projectPath": "D:\\latest_github\\github_ERP\\ERP\\ERP_sales_API\\ERP_sales_API\\Usine_Core\\Usine_Core\\Usine_Core.csproj",
+      "projectPath": "C:\\CORtracker files\\ERP\\ERP_Sales_API_Latest\\Usine_Core\\Usine_Core.csproj",
       "packagesPath": "C:\\Users\\Win10office\\.nuget\\packages\\",
-      "outputPath": "D:\\latest_github\\github_ERP\\ERP\\ERP_sales_API\\ERP_sales_API\\Usine_Core\\Usine_Core\\obj\\",
+      "outputPath": "C:\\CORtracker files\\ERP\\ERP_Sales_API_Latest\\Usine_Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -9119,7 +9119,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -9137,7 +9136,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "netcoreapp3.1": {
@@ -9213,7 +9213,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   },

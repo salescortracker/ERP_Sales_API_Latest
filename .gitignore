@@ -1,0 +1,50 @@
+# Ignore Visual Studio-specific files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore build artifacts
+bin/
+obj/
+
+# Ignore logs, lock files, and backups
+*.log
+*.lock
+*.bak
+*.swp
+*.swn
+*.swo
+*.sublime-workspace
+
+# Ignore application settings (uncomment if needed)
+# appsettings.json
+# appsettings.Development.json
+
+# Ignore package management files
+node_modules/
+packages/
+project.lock.json
+
+# Ignore User Secrets (if used)
+secrets.json
+
+# Ignore static and uploaded files
+Uploads/
+wwwroot/
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore Rider & JetBrains files
+.idea/
+*.iml
+
+# Ignore ReSharper files
+*.DotSettings.user
+
+# Ignore NuGet-related files
+*.nupkg
+.nuget/

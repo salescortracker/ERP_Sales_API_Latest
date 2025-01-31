@@ -1,5 +1,8 @@
 is_global = true
 build_property.RootNamespace = Usine_Core
-build_property.ProjectDir = D:\latest_github\github_ERP\ERP\ERP_sales_API\ERP_sales_API\Usine_Core\Usine_Core\
+build_property.ProjectDir = C:\CORtracker files\ERP\ERP_Sales_API_Latest\Usine_Core\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.CsWinRTUseWindowsUIXamlProjections = false
+build_property.EffectiveAnalysisLevelStyle = 
+build_property.EnableCodeStyleSeverity = 
