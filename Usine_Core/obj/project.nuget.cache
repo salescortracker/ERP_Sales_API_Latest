@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jMQHQImNtok=",
+  "dgSpecHash": "YfxFs+uU5EU=",
   "success": true,
-  "projectFilePath": "D:\\latest_github\\github_ERP\\ERP\\ERP_sales_API\\ERP_sales_API\\Usine_Core\\Usine_Core\\Usine_Core.csproj",
+  "projectFilePath": "D:\\edrive\\api_latest\\ERP_Sales_API_Latest\\Usine_Core\\Usine_Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Win10office\\.nuget\\packages\\closedxml\\0.95.4\\closedxml.0.95.4.nupkg.sha512",
     "C:\\Users\\Win10office\\.nuget\\packages\\documentformat.openxml\\2.7.2\\documentformat.openxml.2.7.2.nupkg.sha512",

@@ -338,53 +338,64 @@ namespace Usine_Core.Controllers.Admin
                     customerRegistrations.Dat = DateTime.Now;
                     //customerRegistrations.productId = "D-USI";
                     if (customerRegDto.Country == "US") {
-                        customerRegistrations.websiteURL = "https://ussales.cortracker360.com";
+                        customerRegistrations.websiteURL = "https://sales.cortracker360.com";
                     }
                     else
                     {
                         if (customerRegDto.industry.Trim() == "Textile Industry")
                         {
-                            customerRegistrations.websiteURL = "https://crt.cortracker360.com";
+                           // customerRegistrations.websiteURL = "https://crt.cortracker360.com";
+                            customerRegistrations.websiteURL = "https://sales.cortracker360.com";
                         }
                         else if (customerRegDto.industry.Trim() == "Interior Design  Industry")
                         {
-                            customerRegistrations.websiteURL = "https://interior.cortracker360.com";
+                            //customerRegistrations.websiteURL = "https://interior.cortracker360.com";
+                            customerRegistrations.websiteURL = "https://sales.cortracker360.com";
                         }
                         else if (customerRegDto.industry.Trim() == "BPO Industry")
                         {
-                            customerRegistrations.websiteURL = "https://bpo.cortracker360.com";
+                            //customerRegistrations.websiteURL = "https://bpo.cortracker360.com";
+                            customerRegistrations.websiteURL = "https://sales.cortracker360.com";
                         }
                         else if (customerRegDto.industry.Trim() == "Food Manufacturing Industry")
                         {
-                            customerRegistrations.websiteURL = "https://rdw.cortracker360.com";
+                            //customerRegistrations.websiteURL = "https://rdw.cortracker360.com";
+                            customerRegistrations.websiteURL = "https://sales.cortracker360.com";
                         }
                         else if (customerRegDto.industry.Trim() == "Chemicals Industry")
                         {
-                            customerRegistrations.websiteURL = "https://chemicals.cortracker360.com";
+                            //customerRegistrations.websiteURL = "https://chemicals.cortracker360.com";
+                            customerRegistrations.websiteURL = "https://sales.cortracker360.com";
                         }
                         else if (customerRegDto.industry.Trim() == "Home Automation Industry")
                         {
-                            customerRegistrations.websiteURL = "https://ha.cortracker360.com";
+                            //customerRegistrations.websiteURL = "https://ha.cortracker360.com";
+                            customerRegistrations.websiteURL = "https://sales.cortracker360.com";
                         }
                         else if (customerRegDto.industry.Trim() == "Furniture Industry")
                         {
-                            customerRegistrations.websiteURL = "https://rdw.cortracker360.com";
+                            //customerRegistrations.websiteURL = "https://rdw.cortracker360.com";
+                            customerRegistrations.websiteURL = "https://sales.cortracker360.com";
                         }
                         else if (customerRegDto.industry.Trim() == "Plastics Manufacturing Industry")
                         {
-                            customerRegistrations.websiteURL = "https://rdw.cortracker360.com";
+                            //customerRegistrations.websiteURL = "https://rdw.cortracker360.com";
+                            customerRegistrations.websiteURL = "https://sales.cortracker360.com";
                         }
                         else if (customerRegDto.industry.Trim() == "Machinery Manufacturing Industry")
                         {
-                            customerRegistrations.websiteURL = "https://machinery.cortracker360.com";
+                            //customerRegistrations.websiteURL = "https://machinery.cortracker360.com";
+                            customerRegistrations.websiteURL = "https://sales.cortracker360.com";
                         }
                         else if (customerRegDto.industry.Trim() == "Bottle Manufacturing Industry")
                         {
-                            customerRegistrations.websiteURL = "https://bottle.cortracker360.com";
+                            //customerRegistrations.websiteURL = "https://bottle.cortracker360.com";
+                            customerRegistrations.websiteURL = "https://sales.cortracker360.com";
                         }
                         else if (customerRegDto.industry.Trim() == "Discrete Manufacturing Industry")
                         {
-                            customerRegistrations.websiteURL = "https://rdw.cortracker360.com";
+                            //customerRegistrations.websiteURL = "https://rdw.cortracker360.com";
+                            customerRegistrations.websiteURL = "https://sales.cortracker360.com";
                         }
                         else
                         {
@@ -397,56 +408,67 @@ namespace Usine_Core.Controllers.Admin
                     customerRegistrations.databasename = "SalesDemoDB";
                     if (customerRegDto.Country == "US")
                     {
-                        customerRegistrations.urldet = "https://ussales.cortracker360.com";
+                        customerRegistrations.urldet = "https://sales.cortracker360.com";
                     }
                     else
                     {
                         if(customerRegDto.industry== "Textile Industry")
                         {
-                            customerRegistrations.urldet = "https://crt.cortracker360.com";
+                            //customerRegistrations.urldet = "https://crt.cortracker360.com";
+                            customerRegistrations.urldet = "https://sales.cortracker360.com";
                         }
                         else if (customerRegDto.industry == "Interior Design  Industry")
                         {
-                            customerRegistrations.urldet = "https://interior.cortracker360.com";
+                            //customerRegistrations.urldet = "https://interior.cortracker360.com";
+                            customerRegistrations.urldet = "https://sales.cortracker360.com";
                         }
                         else if (customerRegDto.industry == "BPO Industry")
                         {
-                            customerRegistrations.urldet = "https://bpo.cortracker360.com";
+                            //customerRegistrations.urldet = "https://bpo.cortracker360.com";
+                            customerRegistrations.urldet = "https://sales.cortracker360.com";
                         }
                         else if (customerRegDto.industry == "Food Manufacturing Industry")
                         {
-                            customerRegistrations.urldet = "https://rdw.cortracker360.com";
+                            //customerRegistrations.urldet = "https://rdw.cortracker360.com";
+                            customerRegistrations.urldet = "https://sales.cortracker360.com";
                         }
                         else if (customerRegDto.industry == "Chemicals Industry")
                         {
-                            customerRegistrations.urldet = "https://chemicals.cortracker360.com";
+                            //customerRegistrations.urldet = "https://chemicals.cortracker360.com";
+                            customerRegistrations.urldet = "https://sales.cortracker360.com";
                         }
                         else if (customerRegDto.industry == "Home Automation Industry")
                         {
-                            customerRegistrations.urldet = "https://ha.cortracker360.com";
+                            //customerRegistrations.urldet = "https://ha.cortracker360.com";
+                            customerRegistrations.urldet = "https://sales.cortracker360.com";
                         }
                         else if (customerRegDto.industry == "Furniture Industry")
                         {
-                            customerRegistrations.urldet = "https://rdw.cortracker360.com";
+                            //customerRegistrations.urldet = "https://rdw.cortracker360.com";
+                            customerRegistrations.urldet = "https://sales.cortracker360.com";
                         }
                         else if (customerRegDto.industry == "Plastics Manufacturing Industry")
                         {
-                            customerRegistrations.urldet = "https://rdw.cortracker360.com";
+                            //customerRegistrations.urldet = "https://rdw.cortracker360.com";
+                            customerRegistrations.urldet = "https://sales.cortracker360.com";
                         }
                         else if (customerRegDto.industry == "Machinery Manufacturing Industry")
                         {
-                            customerRegistrations.urldet = "https://machinery.cortracker360.com";
+                            //customerRegistrations.urldet = "https://machinery.cortracker360.com";
+                            customerRegistrations.urldet = "https://sales.cortracker360.com";
                         }
                         else if (customerRegDto.industry == "Bottle Manufacturing Industry")
                         {
-                            customerRegistrations.urldet = "https://bottle.cortracker360.com";
+                            //customerRegistrations.urldet = "https://bottle.cortracker360.com";
+                            customerRegistrations.urldet = "https://sales.cortracker360.com";
                         }
                         else if (customerRegDto.industry == "Discrete Manufacturing Industry")
                         {
-                            customerRegistrations.urldet = "https://rdw.cortracker360.com";
+                            //customerRegistrations.urldet = "https://rdw.cortracker360.com";
+                            customerRegistrations.urldet = "https://sales.cortracker360.com";
                         }
                         else { 
-                        customerRegistrations.urldet = "https://sales.cortracker360.com";
+                            customerRegistrations.urldet = "https://sales.cortracker360.com";
                         }
                     }
                     customerRegistrations.DefaultUser = "admin";
@@ -537,7 +559,7 @@ namespace Usine_Core.Controllers.Admin
                     }
                     else if (customerRegDto.product == "sales")
                     {
-                        customerRegistrations.websiteURL = "https://corsales.cortracker360.com";
+                        customerRegistrations.websiteURL = "https://corcrm.cortracker360.com";
                     }
                     customerRegistrations.userName = "sa";
                     customerRegistrations.password = "C0rtr@ck3r@2024@0124";
@@ -561,7 +583,7 @@ namespace Usine_Core.Controllers.Admin
                     }
                     else if (customerRegDto.product == "sales")
                     {
-                        customerRegistrations.urldet = "https://corsales.cortracker360.com";
+                        customerRegistrations.urldet = "https://corcrm.cortracker360.com";
                     }
                     customerRegistrations.DefaultUser = "admin";
                     customerRegistrations.RegDate = DateTime.Now;
